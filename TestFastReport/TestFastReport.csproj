@@ -5,17 +5,25 @@
     <UserSecretsId>3d0be438-6bf1-4891-b8ec-04f29a71e6c6</UserSecretsId>
 	  <ServerGarbageCollection>false</ServerGarbageCollection>
 	  <ConcurrentGarbageCollection>true</ConcurrentGarbageCollection>
+	  <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FastReport.OpenSource" Version="2021.3.17" />
+    <PackageReference Include="FastReport.OpenSource" Version="2021.4.16" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
   </ItemGroup>
 
   <ItemGroup>
     <None Update="1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="2.frx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="3.frx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Dockerfile">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="08/15/2011 18:52:48" ReportInfo.Modified="08/30/2021 14:35:55" ReportInfo.CreatorVersion="2020.3.0.0">
+  <ScriptText>using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Windows.Forms;
+using System.Drawing;
+using System.Data;
+using FastReport;
+using FastReport.Data;
+using FastReport.Dialog;
+using FastReport.Barcode;
+using FastReport.Table;
+using FastReport.Utils;
+
+namespace FastReport
+{
+  public class ReportScript
+  {       
+  }
+}
+</ScriptText>
+  <Dictionary/>
+  <ReportPage Name="Page1" Landscape="true" PaperWidth="297" PaperHeight="210" RawPaperSize="9" LeftMargin="0" TopMargin="0" RightMargin="0" BottomMargin="0" FirstPageSource="15" OtherPagesSource="15" LastPageSource="15" Guides="519.75" Watermark.Font="宋体, 60pt">
+    <DataBand Name="DDataList" Width="1122.66" Height="793.8">
+      <PictureObject Name="PicECGWaveImage" Width="1122.66" Height="793.8" Border.ShadowColor="Transparent" DataColumn="Test.Image"/>
+    </DataBand>
+  </ReportPage>
+</Report>
